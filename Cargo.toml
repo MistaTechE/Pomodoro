@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/pomodoro-core",
+    "crates/pomodoro-runtime",
+    "crates/pomodoro-audio",
+    "crates/pomodoro-storage",
+    "crates/pomodoro-cli",
+    "crates/pomodoro-ipc",
+]
